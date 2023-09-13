@@ -8,17 +8,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <title>Document</title>
 <style>
-h2 {
-
+ .Personal{
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 2px;
+    }
+.Basic{
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 2px;
+    }
+#list{
+        font-family:'Poppins', sans-serif;
+    }
+p{
+        font-family:'Poppins', sans-serif;
+    }
+.list2{
+        font-family:'Poppins', sans-serif;
     }
 </style>
 </head>
 <body>
 <fieldset>
-<legend><h2> Personal Details </h2>  </legend>
-<strong><h2> Basic Details </h2>  </strong>
+<legend><h2><span class="Personal"> Personal Details</span>  </h2>  </legend>
+<strong><h2><span class="Basic"> Basic Details </span>  </h2>  </strong>
 <hr>
-<ul>
+<ul id="list">
 <li> <strong> Name </strong>  : Mohit Sharma </li>
 <li> <strong> Adress </strong>: Karve Nagar,Pune </li>
 <li> <strong> DOB </strong> : 5 Aug 1998 </li>
@@ -30,13 +46,13 @@ h2 {
 
 <hr>
 <h2> Education Details: </h2>
-<strong> B-Tech in  Sinhagad Engineering College,Vadgaon,Pune </strong>
+<p> B-Tech in  Sinhagad Engineering College,Vadgaon,Pune </p>  </strong>
 <hr>
 <h2> Technical Skills </h2>
-<ul>
-<li> <strong> Knowledge About Ms-Word  </strong> </li> 
-<li> <strong> Knowledge About Ms-Excel  </strong>  </li> 
-<li> <strong> Knowledge About Worpress  </strong> </li>> 
+<ul class="list2">
+<li>  Knowledge About Ms-Word   </li> 
+<li>  Knowledge About Ms-Excel    </li> 
+<li>  Knowledge About Worpress  > </li>> 
 </ul>
 </fieldset>    
 </ul>
